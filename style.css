@@ -7,8 +7,31 @@ body {
   color: rgb(100,100,100);
   font-family:'Open Sans', sans-serif;
   font-weight:300;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
+}
+#sidebar {
+  position: fixed;
+  width: 60px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #476268;
+}
+
+#sidebar > ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+#sidebar li {
+  padding: 20px;
+}
+
+#page-content {
+  margin-left: 300px;
 }
 h1,h2,h3 {
   font-family:'Montserrat', sans-serif;
@@ -88,7 +111,7 @@ a {
   }
 }
 
-.list-inline >ul > li {
+.list-inline > ul > li {
   display: inline-block;
   padding: 0px 30px;
   padding-left: 0px;
@@ -98,7 +121,6 @@ a {
 .btn-turquoise {
   background-color: white;
   border: 1px solid #40A798;
-  font-size: 13px;
   padding: 4px 15px;
   border-radius: 5px;
 }
@@ -107,3 +129,17 @@ a {
   background-color: #40A798;
   color: white;
 }
+
+.text-small p {
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.text-small h3 {
+  font-family:'Open Sans', sans-serif;
+  font-weight:400;
+  font-size: 14px;
+}
+
+
