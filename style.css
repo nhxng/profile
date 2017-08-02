@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700');
+/** {
+  border: thin solid red;
+}*/
+body {
+  background-color: rgb(230,230,230);
+  color: rgb(100,100,100);
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  font-size: 13px;
+  line-height: 1.6;
+}
+h1,h2,h3 {
+  font-family:'Montserrat', sans-serif;
+  line-height: 1.1;
+}
+h1{
+  font-weight:700;
+  color: #40A798;
+  font-size: 22px;
+}
+h2,h3 {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150,150,150);
+  transition: color 500ms ease;
+}
+ a:hover {
+  color: #40A798;
+ }
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #40A798;
+}
+
+.img-square {
+  border-radius: 2px,
+  width: 230px;
+  height: 150px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px 7px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.list-inline >ul > li {
+  display: inline-block;
+  padding: 0px 30px;
+  padding-left: 0px;
+
+}
+
+.btn-turquoise {
+  background-color: white;
+  border: 1px solid #40A798;
+  font-size: 13px;
+  padding: 4px 15px;
+  border-radius: 5px;
+}
+
+.btn-turquoise:hover {
+  background-color: #40A798;
+  color: white;
+}
